@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <EditTextPreference android:id="@+id/edtName"
+            android:title="Enter your password"
+            android:summary="Password"
+            android:key="Password"/>
+        <CheckBoxPreference
+            android:id="@+id/chkbox"
+            android:title="Screen Lock"
+            android:key="ScreenLock"
+            android:summary="Do you want to lock screen with password"/>
+        <EditTextPreference android:id="@+id/edt2"
+            android:title="Reminder for updation"
+            android:summary="Set update reminder frequency"
+            android:key="UpdateReminder"/>
+    </PreferenceCategory>
+</PreferenceScreen>
